@@ -1,0 +1,14 @@
+package main
+
+import (
+	"Office-Booking/app"
+	"os"
+)
+
+func main() {
+	os.Setenv("DB_Username", "#")
+	os.Setenv("DB_Password", "#")
+	os.Setenv("DB_Port", "#")
+	os.Setenv("DB_Name", "#")
+	app.Run()
+}
